@@ -1,0 +1,37 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+interface Props { post: CollectionEntry<'blog'>; }
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<BaseLayout title={`${post.data.title} — Tejas Subramaniam`} description={post.data.description}>
+  <article>
+    <h1>{post.data.title}</h1>
+    <p style="color: var(--faint); font-family: var(--sans); font-size: 13px; margin-top: -1rem; margin-bottom: 2rem;">
+      {fmt(post.data.pubDate)}
+      {post.data.updatedDate && ` · updated ${fmt(post.data.updatedDate)}`}
+    </p>
+
+    {post.data.crosspost && (
+      <div class="crosspost-note">
+        Also posted on <a href={post.data.crosspost}>Substack</a>.
+      </div>
+    )}
+
+    <Content />
+  </article>
+</BaseLayout>

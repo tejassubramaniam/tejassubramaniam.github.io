@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 6);
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+---
+<BaseLayout title="Tejas Subramaniam">
+  <h1>Tejas Subramaniam</h1>
+
+  <p>
+    I’m a Stanford senior studying economics and math. Currently, I’m thinking about metaethics, AI safety, talent, and the economics of animal welfare (plus a fair bit of macroeconomics). In the past, I worked on housing policy at J-PAL, animal welfare at Rethink Priorities, and FX at Bridgewater.
+  <p>
+    I’m about to release a trove of unpublished drafts on <a href="https://tejassubramaniam.substack.com">The Disagreement Theorem</a>, where I plan to write frequently. I also <a href="https://x.com/TejasReal">tweet</a> about economics research. 
+  </p>
+
+  <h2>Writing</h2>
+  <ul class="writing-list">
+    {posts.map((post) => (
+      <li>
+        <a class="title" href={`/blog/${post.slug}/`}>{post.data.title}</a>
+        <span class="meta">
+          {fmt(post.data.pubDate)}{post.data.crosspost ? ' · crosspost' : ''}
+        </span>
+        {post.data.description && (
+          <div class="desc">{post.data.description}</div>
+        )}
+      </li>
+    ))}
+  </ul>
+</BaseLayout>
