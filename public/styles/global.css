@@ -6,8 +6,8 @@
   --link-hover: #0c447c;
   --bg: #fdfcfa;
   --rule: #e5e3de;
-  --serif: "Charter", "Iowan Old Style", "Source Serif Pro", Georgia, "Times New Roman", serif;
-  --sans: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+  --serif: "Newsreader", "Charter", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   --mono: "JetBrains Mono", "Menlo", "Monaco", "Courier New", monospace;
 }
 
