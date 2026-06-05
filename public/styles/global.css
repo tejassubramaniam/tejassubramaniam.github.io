@@ -33,6 +33,7 @@ body {
   background: var(--bg);
   line-height: 1.65;
   font-size: 17px;
+  font-optical-sizing: auto;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
