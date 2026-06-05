@@ -5,14 +5,6 @@ pubDate: 2026-06-05
 draft: false
 ---
 
----
-title: "Should vegans eat humane meat?"
-description: "A quick economic model on whether marginal humane-meat demand from a vegan increases or decreases total animal welfare."
-pubDate: 2026-06-05
-draft: false
-tags: ["economics", "animal-welfare"]
----
-
 Humam Aziz asks, "Does eating free-range products increase animal welfare, or does it drive prices up for humane animal products, leaving consumers (who are highly elastic) to switch towards cheaper, higher-suffering animal products?" This is a non-issue for meat-eaters. Eating more-humane animal products is still better, because the most the price increase can do (assuming the supply curve isn't downward-sloping) is *offset* some of the switch. The question of whether a vegan should consider eating humane meat is a bit more complicated, but I'm skeptical. I thought I'd write up a quick economic model to think about this more clearly.
 
 ## Set-up
