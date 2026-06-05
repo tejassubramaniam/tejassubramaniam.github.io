@@ -5,7 +5,7 @@ pubDate: 2026-06-05
 draft: false
 ---
 
-Humam Aziz asks, "Does eating free-range products increase animal welfare, or does it drive prices up for humane animal products, leaving consumers (who are highly elastic) to switch towards cheaper, higher-suffering animal products?" This is a non-issue for meat-eaters. Eating more-humane animal products is still better, because the most the price increase can do (assuming the supply curve isn't downward-sloping) is *offset* some of the switch. The question of whether a vegan should consider eating humane meat is a bit more complicated, but I'm skeptical. I thought I'd write up a quick economic model to think about this more clearly.
+Humam Aziz [asks](https://hmms.substack.com/p/why-i-am-a-better-vegan-than-you), "Does eating free-range products increase animal welfare, or does it drive prices up for humane animal products, leaving consumers (who are highly elastic) to switch towards cheaper, higher-suffering animal products?" This is a non-issue for meat-eaters. Eating more-humane animal products is still better, because the most the price increase can do (assuming the supply curve isn't downward-sloping) is *offset* some of the switch. The question of whether a vegan should consider eating humane meat is a bit more complicated, but I'm skeptical. I thought I'd write up a quick economic model to think about this more clearly.
 
 ## Set-up
 
