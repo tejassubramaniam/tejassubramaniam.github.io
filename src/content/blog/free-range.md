@@ -5,7 +5,9 @@ pubDate: 2026-06-05
 draft: false
 ---
 
-Humam Aziz [asks](https://hmms.substack.com/p/why-i-am-a-better-vegan-than-you), "Does eating free-range products increase animal welfare, or does it drive prices up for humane animal products, leaving consumers (who are highly elastic) to switch towards cheaper, higher-suffering animal products?" This is a non-issue for meat-eaters. Eating more-humane animal products is still better, because the most the price increase can do (assuming the supply curve isn't downward-sloping) is *offset* some of the switch. The question of whether a vegan should consider eating humane meat is a bit more complicated, but I'm skeptical. I thought I'd write up a quick economic model to think about this more clearly.
+Humam Aziz [asks](https://hmms.substack.com/p/why-i-am-a-better-vegan-than-you), "Does eating free-range products increase animal welfare, or does it drive prices up for humane animal products, leaving consumers (who are highly elastic) to switch towards cheaper, higher-suffering animal products?" 
+
+It seems clear that non-vegans eating more-humane animal products is, other things being equal, preferable (for the farmed animals in question) to them eating less-humane animal products, because even if their demand drives up prices for more-humane meat (or eggs), that can (assuming upward-sloping supply curves) only partially offset the benefit of their own substitution. However, it’s a bit less clear whether there are regular circumstances where it is better for vegans to eat more-humane meat (or eggs) rather than staying vegan. I thought I’d build a framework to think about what those circumstances might be more precisely. In the end, my guess is that, in most cases, assuming the animal raised for more-humane meat still lives a negative-welfare life, more-humane meat is worse than staying vegan. 
 
 ## Set-up
 
