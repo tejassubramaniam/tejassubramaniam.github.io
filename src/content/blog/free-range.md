@@ -2,7 +2,7 @@
 title: "A quick economic model of humane meat consumption"
 description: "A framework to think about when a vegan might eat humane meat instead."
 pubDate: 2026-06-05
-draft: true
+draft: false
 ---
 
 ---
