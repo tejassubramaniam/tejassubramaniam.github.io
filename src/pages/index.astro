@@ -43,3 +43,19 @@ const fmt = (d: Date) =>
     ))}
   </ul>
 </BaseLayout>
+
+<style>
+  .intro::after { content: ""; display: table; clear: both; }
+  .portrait {
+    float: right;
+    width: 150px;
+    margin: 0.35rem 0 0.75rem 1.5rem;
+    border-radius: 4px;
+  }
+  @media (max-width: 560px) {
+    .portrait {
+      width: 110px;
+      margin: 0.3rem 0 0.5rem 1rem;
+    }
+  }
+</style>
