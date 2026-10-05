@@ -155,17 +155,14 @@ footer a { color: var(--faint); }
 .intro::after { content: ""; display: table; clear: both; }
 .intro .portrait {
   float: right;
-  width: 190px;
-  margin: 0.35rem 0 1rem 1.75rem;
+  width: 150px;
+  margin: 0.35rem 0 0.75rem 1.5rem;
   border-radius: 4px;
 }
 @media (max-width: 560px) {
   .intro .portrait {
-    float: none;
-    display: block;
-    width: 100%;
-    max-width: 260px;
-    margin: 0 0 1.5rem;
+    width: 110px;
+    margin: 0.3rem 0 0.5rem 1rem;
   }
 }
 
