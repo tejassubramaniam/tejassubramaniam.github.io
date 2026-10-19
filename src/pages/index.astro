@@ -21,7 +21,7 @@ const fmt = (d: Date) =>
       height="800"
     />
     <p>
-      Hi! I’m <a href="https://x.com/TejasReal">Tejas</a>. I am an AI strategy researcher at BlueDot Impact. Until recently, I studied economics, math, and philosophy at Stanford. In the past, I’ve worked on AI governance at the Stanford Existential Risks Initiative, FX at Bridgewater, and housing policy at J-PAL. I also plan to write at <a href="https://tejassubramaniam.substack.com">The Disagreement Theorem</a>.
+      Hi! I’m <a href="https://x.com/TejasReal">Tejas</a>. I am an AI strategy researcher at BlueDot Impact. Until recently, I studied economics, math, and philosophy at Stanford. In the past, I’ve worked on AI governance at the Stanford Existential Risks Initiative, FX at Bridgewater, and housing policy at J-PAL. I debated competitively in high school and college.<sup class="fn-ref"><a href="#fn-debate" id="fnref-debate" aria-describedby="footnotes-label">1</a></sup> I also plan to write at <a href="https://tejassubramaniam.substack.com">The Disagreement Theorem</a>.
     </p>
     <p>
       Currently, I’m thinking about what drives the motivations of powerful AI systems (e.g., <a href="https://www.lesswrong.com/posts/FeaJcWkC6fuRAMsfp/the-behavioral-selection-model-for-predicting-ai-motivations-1">behavioral selection</a>, <a href="https://www.lesswrong.com/posts/J2kpxLjEyqh6x3oA4/value-systematization-how-values-become-coherent-and">reflection</a>), open-source game theory, and the economics of recursive self-improvement. If you have thoughts for me on those things, or ideas for research I should do, feel free to <a href="mailto:tejassubramaniam1@gmail.com">email me</a>.
@@ -42,6 +42,15 @@ const fmt = (d: Date) =>
       </li>
     ))}
   </ul>
+
+  <section class="footnotes" aria-labelledby="footnotes-label">
+    <h2 id="footnotes-label" class="sr-only">Footnotes</h2>
+    <ol>
+      <li id="fn-debate">
+        In high school, I won the World Schools Debating Championships. In college, I was top speaker at the World Universities Debating Championship, in addition to winning (and placing first individually at) the U.S. Universities Debating Championships twice, winning the North American Universities Debating Championships and the North American Debating Championships (the two main North American parliamentary tournaments), and numerous major tournaments (including the HWS Round Robin, the Oxford IV, and the Yale IV). I have many thoughts on how parliamentary debate interacts with truth-seeking and good epistemics (both positive and negative) that I’d be happy to discuss. <a href="#fnref-debate" aria-label="Back to content">↩</a>
+      </li>
+    </ol>
+  </section>
 </BaseLayout>
 
 <style>
@@ -51,6 +60,24 @@ const fmt = (d: Date) =>
     width: 150px;
     margin: 0.35rem 0 0.75rem 1.5rem;
     border-radius: 4px;
+  }
+  .fn-ref { font-size: 0.75em; line-height: 0; }
+  .fn-ref a { text-decoration: none; }
+  .footnotes {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--rule);
+    font-size: 15px;
+    color: var(--muted);
+  }
+  .footnotes ol { padding-left: 1.25rem; margin: 0; }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
   }
   @media (max-width: 560px) {
     .portrait {
