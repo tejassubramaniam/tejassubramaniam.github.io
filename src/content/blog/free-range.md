@@ -11,7 +11,7 @@ It seems clear that non-vegans eating more-humane animal products is, other thin
 
 ## Set-up
 
-Suppose there are two retail markets, one for higher-welfare meat (indexed by $H$) and one for lower-welfare meat (indexed by $L$). Let $P_H$ and $P_L$ denote prices and $Q_H$ and $Q_L$ denote quantities. For simplicity, I assume that demand and supply are linear in prices, with common own-price slopes $\beta > 0$ in demand and $\epsilon > 0$ in supply, and with common cross-price slopes $\gamma \geq 0$ in demand and $\phi \geq 0$ in supply. Higher-welfare meat is costlier to produce, so we have a per-unit "wedge" $c \geq 0$; producers therefore respond to the net margin $P_H - c$ when making this allocation decision. The constants $\alpha_H$, $\alpha_L$, and $\delta$ are intercepts. Hence, the system of equations is
+Suppose there are two retail markets, one for higher-welfare meat (indexed by $H$) and one for lower-welfare meat (indexed by $L$). Let $P_H$ and $P_L$ denote prices and $Q_H$ and $Q_L$ denote quantities. For simplicity, I'll assume that both demand and supply are linear in prices, with an own-price slope $\beta > 0$ in demand and an own-price slope $\epsilon > 0$ in supply. Say the cross-price slopes are $\gamma \geq 0$ in demand and $\phi \geq 0$ in supply. It is costlier to produce higher-welfare meat, so suppose this additional cost per unit is $c \geq 0$, and producers make decisions by responding to the net margin $P_H - c$. The constants $\alpha_H$, $\alpha_L$, and $\delta$ are intercepts. Hence, the system of equations is
 
 $$
 \begin{aligned}
@@ -24,7 +24,7 @@ $$
 
 I'll assume $\beta + \epsilon > \gamma + \phi$, which ensures that own-market price responses dominate cross-market substitution (I'll call this "own-market dominance"); this ensures that the system of equations has a positive determinant.
 
-Let $w_H$ and $w_L$ denote per-animal welfare in higher-welfare and lower-welfare production respectively. I assume that both are negative, but that lower-welfare conditions are strictly worse, so $w_L < w_H < 0$. Total animal welfare is given by $W = w_H Q_H + w_L Q_L$. Define the welfare ratio $r \equiv |w_L|/|w_H| > 1$, which measures how much worse lower-welfare conditions are per animal than higher-welfare conditions. Without loss of generality, we can set $w_H = -1$ and $w_L = -r$.
+Let $w_H$ and $w_L$ denote per-animal welfare in higher-welfare and lower-welfare production respectively. I assume that both are negative, but that lower-welfare conditions are strictly worse, so $w_L < w_H < 0$. Total animal welfare is given by $W = w_H Q_H + w_L Q_L$. The _welfare ratio_ is $r \equiv |w_L|/|w_H| > 1$. This shows how much worse lower-welfare conditions are than higher-welfare ones for any individual animal. Without loss of generality, we can set $w_H = -1$ and $w_L = -r$.
 
 ## Comparative statics
 
@@ -106,7 +106,7 @@ r > \frac{\epsilon\beta + \epsilon^2 - \phi\gamma - \phi^2}{\phi\beta - \epsilon
 }
 $$
 
-Since $\Delta Q_L = (\epsilon\gamma - \phi\beta)/D$, the condition $\phi\beta > \epsilon\gamma$ is exactly the requirement that the demand shift causes lower-welfare output to fall ($\Delta Q_L < 0$). Without it, the marginal vegan adds animals to the system on net. With it, supply-side substitution actually pulls some animals out of the worse system and into the better one. The second condition then asks that the welfare ratio $r$ be large enough that the welfare gained from those displaced lower-welfare animals outweighs the welfare cost of the additional higher-welfare animals brought into existence ($\Delta Q_H > 0$, the normal own-market response).
+Since $\Delta Q_L = (\epsilon\gamma - \phi\beta)/D$, the condition $\phi\beta > \epsilon\gamma$ is exactly the requirement that the demand shift causes lower-welfare output to fall ($\Delta Q_L < 0$). If this condition isn't met, the marginal vegan who switches to higher-welfare meat ends up bringing more animals into *both* systems, including the worse one. If it does hold, some animals are pulled out of the worse system and into the better one. The second condition then asks whether lower-welfare conditions are bad enough, relative to higher-welfare ones, that sparing those animals the worse system makes up for the extra animals now being raised in the better one.
 
 In practice, I'd guess these conditions are hard to meet, but I'm not certain.
 
