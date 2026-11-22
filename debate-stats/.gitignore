@@ -1,2 +1,4 @@
 raw/tabs/
+raw/*.txt
 __pycache__/
+*.zip

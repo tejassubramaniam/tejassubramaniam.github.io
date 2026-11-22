@@ -45,7 +45,16 @@ PRM_BONUS = 0.4
 AM_T, AM_S, SEMI_AM_T, SEMI_AM_S, PRO_T, SEMI_PRO_T = 1.6, 0.8, 0.8, 0.4, 0.4, 0.2
 ADJCORE_VALUE = -0.8
 NON_BP_JUDGING = -0.8
+CONCURRENT = {"gold": 1, "silver": 2, "bronze": 3, "plastic": 3}
 THREE_V_THREE = {"Australs", "AP", "World Schools"}
+
+
+APPROX_DATES = {  # usual time of year, for tabs that carry no dates
+    "Cambridge IV 2022": "2022-11-19", "Cambridge IV 2023": "2023-11-04", "Doxbridge Pre-WUDC 2022": "2022-12-10",
+    "Imperial IV 2023": "2023-02-25", "LSE IV 2023": "2023-11-11", "Ljubljana IV 2022": "2022-11-12",
+    "USU Pre-Australs 2024": "2024-06-15", "UTS IV 2023": "2023-09-02", "Vienna IV 2022": "2022-10-08",
+    "Western IV 2022": "2022-11-05", "Zagreb EUDC 2022": "2022-08-15",
+}
 
 
 def load(d, name):
@@ -95,6 +104,18 @@ def process_tab(t, d):
     info = {"date": date, "date_source": "tab" if dates else ("sheet" if date else "none"), "n_prelims": n_prelim}
 
     short_to_url = {tm.get("short_name"): u for u, tm in teams.items()}
+    id_to_url = {u.rstrip("/").split("/")[-1]: u for u in teams}
+    api_base = rounds[0]["url"].split("/rounds/")[0] if rounds else None
+
+    def page_team(cell):
+        """Team URL for a team cell on a public tab page (via its record link), else a page-only key."""
+        m = re.search(r"/team/(\d+)/", json.dumps(cell or {}))
+        if m and m.group(1) in id_to_url:
+            return id_to_url[m.group(1)]
+        if m and api_base:  # teams endpoint private: the draws use the same ids
+            return f"{api_base}/teams/{m.group(1)}"
+        nm = (cell or {}).get("text")
+        return short_to_url.get(nm, "page:" + str(nm))
     # ---- speeches (API, else public speaker-tab page) ----
     speeches = []
     for s in load(d, "speaker_rounds") or []:
@@ -116,7 +137,7 @@ def process_tab(t, d):
             for row in tb["data"]:
                 rec = dict(zip(keys, row))
                 name = rec.get("name", {}).get("text")
-                team = (rec.get("team") or {}).get("text")
+                team = page_team(rec.get("team"))
                 for k in keys:
                     if re.fullmatch(r"R\d+", k):
                         try:
@@ -124,7 +145,7 @@ def process_tab(t, d):
                         except (ValueError, KeyError, TypeError):
                             continue
                         if v > 0:
-                            speeches.append((name, short_to_url.get(team, "page:" + str(team)), int(k[1:]), v))
+                            speeches.append((name, team, int(k[1:]), v))
             if speeches:
                 info["speeches_source"] = "page"
     sp_df = pd.DataFrame(speeches, columns=["name", "team", "round", "speaks"]).drop_duplicates(["name", "team", "round"])
@@ -175,8 +196,7 @@ def process_tab(t, d):
                     rk = int(re.sub(r"\D", "", str(rec["Rk"].get("sort", rec["Rk"]["text"]))))
                 except (ValueError, KeyError):
                     continue
-                nm = rec.get("team", {}).get("text")
-                team_rank[short_to_url.get(nm, "page:" + str(nm))] = rk
+                team_rank[page_team(rec.get("team"))] = rk
     # teams that debated >= half prelims, from the prelim draws
     appear = Counter()
     for r in prelims:
@@ -199,6 +219,8 @@ def process_tab(t, d):
         """(speaking class, judging step penalty, label) for a break category."""
         c = cats.get(cat_url, {})
         nm = c.get("name", "")
+        if cat_key(nm) in CONCURRENT:
+            return t.speaking_class, 0.0, f"{nm} (concurrent)"
         if c.get("is_general") or cat_key(nm) in ("open", "national"):
             return t.speaking_class, 0.0, "Open"
         sc = sheet_cats.get(cat_key(nm))
@@ -222,8 +244,10 @@ def process_tab(t, d):
     judge_out = defaultdict(list)  # adj url -> [(cat_url, depth, chaired)]
     for cu, rs in elims.items():
         rs = sorted(rs, key=lambda r: r["seq"])
+        # concurrent outrounds: Gold = GF, Silver = SF, Bronze/Plastic = QF; winning = one round further
+        off = CONCURRENT.get(cat_key(cats.get(cu, {}).get("name")), 1)
         for i, r in enumerate(rs):
-            depth = len(rs) - 1 - i  # 0 = final
+            depth = len(rs) - 1 - i + off - 1  # 0 = GF-equivalent
             for p in pairings.get(r["url"]) or []:
                 for tm in p.get("teams", []):
                     team_out[tm["team"]].append((cu, depth + 1))
@@ -232,7 +256,7 @@ def process_tab(t, d):
                     judge_out[adj["chair"]].append((cu, depth, True))
                 for pa in adj.get("panellists") or []:
                     judge_out[pa].append((cu, depth, False))
-                if depth == 0:  # the final: find the winner from the ballot
+                if i == len(rs) - 1:  # the category's last round: find the winner from the ballot
                     wins = Counter()
                     for b in ballots.get(p["url"]) or []:
                         if b.get("discarded"):
@@ -242,7 +266,7 @@ def process_tab(t, d):
                                 if tr.get("win"):
                                     wins[tr["team"]] += 1
                     if wins:
-                        team_out[wins.most_common(1)[0][0]].append((cu, 0))
+                        team_out[wins.most_common(1)[0][0]].append((cu, depth))
     info["has_outrounds"] = bool(elims)
 
     # ---- speaking achievements ----
@@ -276,7 +300,9 @@ def process_tab(t, d):
                 continue
             pts = S_TABLE[cls][lvl]
             if best is None or pts > best[0]:
-                best = (pts, f"{label} {'winner' if lvl == 0 else LEVELS[lvl]}")
+                desc = (f"{label}, counted as {'a win' if lvl == 0 else LEVELS[lvl]}" if "concurrent" in label
+                        else f"{label} {'winner' if lvl == 0 else LEVELS[lvl]}")
+                best = (pts, desc)
         if best:
             sp_ach.append((name, "outround", best[1], best[0], prm, t_adj, pa_label))
     sp_ach = pd.DataFrame(sp_ach, columns=["name", "kind", "detail", "base", "prm_bonus", "proam_adj", "proam"])
@@ -342,7 +368,10 @@ def main():
         all_sp.append(sp); all_sa.append(sa); all_ja.append(ja)
         print(f"{t.tournament:40s} speeches={info['n_speeches']:5d} spk_ach={len(sa):4d} judge_ach={len(ja):4d}", flush=True)
     tours = pd.DataFrame(rows)
-    # tabs with no date anywhere: mid-year placeholder, flagged
+    # tabs with no date anywhere: usual time of year, else mid-year; flagged
+    miss = tours.scraped & tours.date.isna()
+    tours.loc[miss, "date"] = tours.loc[miss, "tournament"].map(APPROX_DATES)
+    tours.loc[miss, "date_source"] = "approximate"
     miss = tours.scraped & tours.date.isna()
     tours.loc[miss, "date"] = tours.loc[miss, "tournament"].str.extract(r"(\d{4})$")[0] + "-07-01"
     tours.loc[miss, "date_source"] = "placeholder"
