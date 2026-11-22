@@ -1,0 +1,226 @@
+tournament,url,format,region,speaking_class,judging_class,premier_regional_major,scraped,date,date_source,n_prelims,speeches_source,n_speeches,n_teams2,has_outrounds,n_adjudicators
+ABPDC (Australian) 2022,https://usutabs2022.calicotab.com/abpdc2022/,BP,Oceania,S-A+,J-C,False,True,2022-12-10,tab,5.0,api,179.0,20.0,True,17.0
+ABPDC (Australian) 2023,https://abpdc2023.calicotab.com/abpdc2023/,BP,Oceania,S-A+,J-B,False,True,2023-09-09,tab,6.0,api,559.0,52.0,True,33.0
+ABPDC (Australian) 2024,https://abpdc2024.calicotab.com/abpdc2024/,BP,Oceania,S-AA,J-B,False,True,2024-09-07,tab,6.0,api,548.0,52.0,True,31.0
+ABPDC (Australian) 2025,https://abpdc25.calicotab.com/abpdc2025/,BP,Oceania,S-AA,J-C,False,True,2025-10-04,tab,6.0,api,780.0,68.0,True,39.0
+ABPDC (Australian) 2026,https://abpdc2026.calicotab.com/abpdc2026/,BP,Oceania,S-AA,J-B,False,True,2026-09-26,tab,6.0,api,797.0,72.0,True,41.0
+ANU Pre-Australs 2025,https://anupe2025.calicotab.com/anupa2025/,Australs,Oceania,S-A+,J-C,False,True,2025-06-14,tab,5.0,api,327.0,24.0,True,29.0
+ANU Pre-Australs 2026,https://anupreaustrals2026.calicotab.com/anupreaustrals2026/,Australs,Oceania,S-A,J-C,False,True,2026-05-30,tab,5.0,api,263.0,19.0,True,25.0
+ANU Spring 2023,https://anuspring2023.calicotab.com/anuspring2023/,BP,Oceania,S-AA,J-C,False,True,2023-11-17,tab,6.0,api,401.0,43.0,True,59.0
+ANU Spring 2024,https://anuspring2024.calicotab.com/ANUSpring2024/,BP,Oceania,S-A,J-C,False,True,2024-11-23,tab,5.0,page,209.0,22.0,True,0.0
+ANU Spring 2025,https://anuspring2025.calicotab.com/anuspring2025/,BP,Oceania,S-AA,J-E,False,True,2025-11-15,tab,5.0,api,474.0,51.0,True,34.0
+ANU Winter 2022,https://anuwinter22.calicotab.com/anuwinter22/,BP,Oceania,S-A+,J-E,False,True,2022-07-08,tab,6.0,api,611.0,69.0,True,44.0
+Amsterdam Pre-EUDC 2026,https://amsterdampre2026.calicotab.com/amsterdampre2026/,BP,Europe,S-A+,J-C,False,True,2026-07-24,tab,5.0,api,377.0,40.0,True,38.0
+Astana Open 2023,https://astanaopen.calicotab.com/_/,BP,Europe,S-AA,J-AA,False,True,2023-07-28,tab,5.0,api,603.0,64.0,True,48.0
+Athens IV 2024,https://athensiv2024.calicotab.com/athensiv2024/,BP,Europe,S-A,J-A,False,True,2024-05-18,sheet,5.0,api,318.0,32.0,True,35.0
+Athens IV 2025,https://athensiv2025.calicotab.com/_/,BP,Europe,S-A,J-C,False,True,2025-12-13,tab,5.0,api,393.0,40.0,True,27.0
+Auckland Rumble 2023,https://aucklandrumble2023.calicotab.com/aucklandrumble2023/,BP,Oceania,S-A,J-C,False,True,2023-09-30,tab,5.0,api,238.0,27.0,True,24.0
+Bali ABP 2022,https://edudriftbackup.calicotab.com/abp2022/,BP,Asia,S-A+,J-A,True,True,2023-01-09,tab,6.0,api,1003.0,85.0,True,47.0
+Bates NAUDC 2023,https://naudc2023.calicotab.com/naudc2023/,BP,North America,S-AA,J-AA,True,True,2023-04-07,tab,6.0,api,958.0,80.0,True,59.0
+Belgrade Open 2022,https://open-communication.calicotab.com/belgrade2022/,BP,Europe,S-AA,J-B,False,True,2022-10-28,sheet,5.0,page,398.0,40.0,True,0.0
+Belgrade WUDC 2022,https://wudc2022.calicotab.com/wudc/,BP,WUDC,S-WUDC,J-WUDC,True,True,2022-07-19,tab,9.0,api,6386.0,363.0,True,324.0
+Berkeley IV 2024,https://berkeleyiv2024.calicotab.com/berkeleyiv24/,BP,North America,S-A,J-C,False,True,2024-03-16,sheet,5.0,api,536.0,57.0,True,68.0
+Berkeley IV 2026,https://berkeleyiv2026.calicotab.com/berkeleyiv26/,BP,North America,S-A,J-C,False,True,2026-04-04,tab,5.0,api,629.0,64.0,True,43.0
+Black Sea EUDC 2023,https://eudc2023.calicotab.com/_/,BP,Europe,S-AAA,J-AAA+,True,True,2023-08-20,tab,9.0,api,2681.0,151.0,True,140.0
+Brazil Open 2025,https://brazilopen2025.calicotab.com/brazilopen2025/,BP,Latin America,S-A,J-C,False,True,2025-05-31,tab,5.0,api,443.0,46.0,True,91.0
+Cambridge IV 2022,https://cambridgeivfinal.calicotab.com/2022/,BP,IONA,S-AAA,J-AA,False,True,2022-07-01,placeholder,5.0,api,695.0,72.0,True,66.0
+Cambridge IV 2023,https://cambridgeiv2023.calicotab.com/_/,BP,IONA,S-A+,J-A+,False,True,2023-07-01,placeholder,5.0,api,425.0,44.0,True,44.0
+Cambridge IV 2024,https://cambridge2024.calicotab.com/cambridgeiv2024/,BP,IONA,S-AA,J-AA,False,True,2024-11-16,tab,5.0,api,839.0,84.0,True,75.0
+Cambridge IV 2025,https://cambridgeiv2025.calicotab.com/_/,BP,IONA,S-AA+,J-AA,False,True,2025-11-08,tab,5.0,api,900.0,92.0,True,82.0
+Cambridge IV 2026,https://cambridgeiv2026.calicotab.com/cambridge2026/,BP,IONA,S-AA,J-AA+,False,True,2026-11-14,tab,5.0,api,839.0,84.0,True,52.0
+Cambridge Mini 2024,https://cambridgemini2024.calicotab.com/camini2024/,BP,IONA,S-A+,J-B,False,True,2024-12-14,tab,4.0,api,314.0,40.0,True,33.0
+Campbelltown Australs 2022,http://australs2022.calicotab.com/australs2022/,Australs,Oceania,S-AA+,J-A+,True,True,2022-11-24,tab,8.0,api,1031.0,44.0,True,79.0
+Champagne IV 2023,https://champagneiv2023.calicotab.com/_/,BP,Europe,S-A,J-A,False,True,2023-04-14,tab,5.0,api,465.0,48.0,True,38.0
+Chicago Open 2022,https://chicagoopen.calicotab.com/chicagoopen/,BP,North America,S-A+,J-A,False,True,2022-06-24,tab,5.0,api,528.0,56.0,True,42.0
+Columbia IV 2025,https://columbiaiv2025.calicotab.com/columbiaiv2025/,BP,North America,S-A+,J-A+,False,True,2025-10-04,tab,5.0,api,787.0,83.0,True,83.0
+Copenhagen EUDC 2025,https://eudc2025.calicotab.com/_/,BP,Europe,S-AA+,J-AAA,True,True,2025-08-04,tab,9.0,api,3218.0,180.0,True,183.0
+Copenhagen Online Open 2026,https://copenhagenonline26.calicotab.com/_/,BP,Europe,S-A,J-C,False,True,2026-02-07,tab,5.0,api,655.0,68.0,True,59.0
+Copenhagen Open 2025,https://copenhagenopen25.calicotab.com/_/,BP,Europe,S-A,J-A,False,True,2025-02-01,tab,5.0,,0.0,68.0,True,47.0
+DK Wien Invitational Mini 2023,https://dkwieninvitational.calicotab.com/dkwienmini23/,BP,Europe,S-AA,J-C,False,True,2023-07-21,tab,4.0,api,219.0,30.0,True,33.0
+Dartmouth USUDC 2025,https://usudc2025.calicotab.com/_/,BP,North America,S-AA,J-A,False,True,2025-03-01,tab,5.0,api,797.0,80.0,True,74.0
+Doxbridge Pre-WUDC 2022,https://doxbridge-prewudc.calicotab.com/prewudc/,BP,IONA,S-AAA,J-AA+,False,True,2022-07-01,placeholder,5.0,api,1746.0,178.0,True,66.0
+Drexel Open 2024,https://drexel2024.calicotab.com/drexel2024/,BP,North America,S-A,J-C,False,True,2024-06-14,tab,5.0,api,445.0,45.0,True,47.0
+Drexel Pre-WUDC 2025,https://drexelprewudc2025.calicotab.com/_/,BP,North America,S-A+,J-A+,False,True,2025-08-23,tab,5.0,api,438.0,47.0,True,45.0
+Dutch EUDC 2026,https://eudc2026.calicotab.com/_/,BP,Europe,S-AAA,J-AAA,True,False,,,,,,,,
+Earlsfort Open 2023,https://earlsfort2023.calicotab.com/_/,BP,IONA,S-AA,J-A,False,False,,,,,,,,
+Edinburgh Cup 2022,https://edinburgh.calicotab.com/edcup22/,BP,IONA,S-A,J-A,False,True,2022-02-25,tab,5.0,api,380.0,41.0,True,43.0
+Erasmus Rotterdam Open 2024,https://ero2024.calicotab.com/ERO2024/,BP,Europe,S-A,J-C,False,True,2024-06-01,sheet,5.0,api,320.0,32.0,True,27.0
+European Round Robin 2026,https://europeanroundrobin26.calicotab.com/err26/,BP,Europe,S-AA+,J-C,False,True,2026-05-30,tab,5.0,api,160.0,16.0,True,13.0
+Glasgow Ancients 2022,https://glasgowancients2022.calicotab.com/2022/,BP,IONA,S-A,J-B,False,False,,,,,,,,
+Glasgow Ancients 2023,https://guu2023.calicotab.com/ancients2023/,BP,IONA,S-AA,J-B,False,False,,,,,,,,
+Glasgow Ancients 2024,https://glasgowancients24.calicotab.com/_/,BP,IONA,S-AA,J-A,False,False,,,,,,,,
+Glasgow Ancients 2025,https://glasgowancients2025.calicotab.com/glasgowancients2025/,BP,IONA,S-A+,J-B,False,False,,,,,,,,
+Glasgow Ancients 2026,https://glasgowancients2026.calicotab.com/glasgowancients2026/,BP,IONA,S-AA,J-C,False,False,,,,,,,,
+Glasgow EUDC 2024,https://eudc2024.calicotab.com/_/,BP,IONA,S-AA+,J-AAA+,True,False,,,,,,,,
+Glasgow Summer Cup 2023,https://glasgowsummer2023.calicotab.com/_/,BP,IONA,S-AA,J-A+,False,False,,,,,,,,
+Glasgow Summer Cup 2024,https://glasgowsummer2024.calicotab.com/_/,BP,IONA,S-A+,J-AA,False,False,,,,,,,,
+Glasgow Summer Cup 2025,https://glasgowsummercup2025.calicotab.com/glasgowsummercup2025/,BP,IONA,S-A,J-A,False,False,,,,,,,,
+HWS RR 2022,https://people.hws.edu/barnes/hwsrr/images/tabs/RR-Tab-2022.pdf,BP,North America,S-AA,,False,False,,,,,,,,
+HWS Round Robin 2023,https://hwsrr2023.calicotab.com/hwsrr2023/,BP,North America,S-AA+,J-C,False,False,,,,,,,,
+HWS Round Robin 2024,https://hwsrr2024.calicotab.com/hwsrr2024/,BP,North America,S-AAA,J-A,False,False,,,,,,,,
+HWS Round Robin 2025,https://hwsrr2025.calicotab.com/_/,BP,North America,S-AA+,J-C,False,False,,,,,,,,
+HWS Round Robin 2026,https://hwsrr2026.calicotab.com/_/,BP,North America,S-AA,J-B,False,False,,,,,,,,
+HWS USUDC 2022,https://usudc2022.calicotab.com/usudc2022/,BP,North America,S-A+,J-A,False,False,,,,,,,,
+HWS USUDC 2023,https://usudc2023.calicotab.com/usudc2023/,BP,North America,S-A,J-A+,False,False,,,,,,,,
+Hanoi ABP 2026,https://abp2026.calicotab.com/abp2026/,BP,Asia,S-A,J-AA,True,False,,,,,,,,
+Hart House IV 2022,https://hhiv2022.calicotab.com/hhiv2022/,BP,North America,S-A,J-A,False,False,,,,,,,,
+Hart House IV 2023,https://hhiv2023.calicotab.com/hhiv2023/,BP,North America,S-AA,J-B,False,False,,,,,,,,
+Hart House IV 2024,https://hhiv2024.calicotab.com/_/,BP,North America,S-AA,J-A,False,False,,,,,,,,
+Hart House IV 2025,https://hhiv25.calicotab.com/hhiv25/,BP,North America,S-A+,J-A+,False,False,,,,,,,,
+Hart House IV 2026,https://harthouseiv26.calicotab.com/hhiv2026/,BP,North America,S-AA,J-B,False,False,,,,,,,,
+Hungarian SDA Pre-WUDC 2024,https://hsda2024.calicotab.com/hsda2024/,BP,Europe,S-AA,J-C,False,False,,,,,,,,
+Hypothetical Open 2023,https://hypotheticalopen.calicotab.com/_/,BP,IONA,S-A,J-B,False,False,,,,,,,,
+Imperial IV 2022,https://imperialiv2022.calicotab.com/_/,BP,IONA,S-AA+,J-AA,False,False,,,,,,,,
+Imperial IV 2023,https://iv.imperialdebating.org/2023/,BP,IONA,S-A,J-B,False,False,,,,,,,,
+Imperial IV 2024,https://imperialiv24.calicotab.com/impiv24/,BP,IONA,S-A+,J-B,False,False,,,,,,,,
+Imperial IV 2025,https://imperialiv25.calicotab.com/_/,BP,IONA,S-A,J-C,False,False,,,,,,,,
+Imperial Online Open 2025,https://imperialonlineopen2025.calicotab.com/imperialonlineopen2025/,BP,IONA,S-A+,J-A+,False,False,,,,,,,,
+Imperial Pre-WUDC 2025,https://imperialprewudc.calicotab.com/imperialprewudc2025/,BP,IONA,S-AA,J-A,False,False,,,,,,,,
+Istanbul Open 2026,https://tabserverofturkey.calicotab.com/istanbulopen26/,BP,Europe,S-A,J-B,False,False,,,,,,,,
+Jakarta Australs 2024,https://edudrift.calicotab.com/australs2024/,Australs,Oceania,S-AA+,J-AA+,True,False,,,,,,,,
+Johns Hopkins Open 2022,https://johnshopkinsopen2022.calicotab.com/jhu2022/,BP,North America,S-AA,J-A,False,False,,,,,,,,
+Johns Hopkins Pre-WUDC 2023,https://jhuprewudc2023.calicotab.com/jhuprewudc2023/,BP,North America,S-A,J-C,False,False,,,,,,,,
+KCL IV 2025,https://kcliv25.calicotab.com/kcliv25/,BP,IONA,S-A+,J-C,False,False,,,,,,,,
+KCL IV 2026,https://kcliv2026.calicotab.com/kcliv2026/,BP,IONA,S-A,J-C,False,False,,,,,,,,
+KCL Open 2022,https://kclopen2022.calicotab.com/kclopen/,BP,IONA,S-A+,J-C,False,False,,,,,,,,
+KCL Open 2025,https://kclopen25.calicotab.com/kclopen25/,BP,IONA,S-AA,J-A,False,False,,,,,,,,
+KCL Pre-EUDC 2025,https://kclopen2025.calicotab.com/kclpreeudc2025/,BP,IONA,S-AA,J-A+,False,False,,,,,,,,
+KCL Pro-Am 2022,https://kclproam2022.calicotab.com/kclpa2022/,BP,IONA,S-A,J-A,False,False,,,,,,,,
+Krabi ABP 2024,https://edudrift.calicotab.com/abp2024/,BP,Asia,S-AA,J-A,True,False,,,,,,,,
+Krabi Australs 2023,https://krabiaustrals2023.calicotab.com/australs2023/,Australs,Oceania,S-AA+,J-AA+,True,False,,,,,,,,
+Kuantan ABP 2025,https://iiumedc.calicotab.com/abp2025/,BP,Asia,S-A+,J-AA,True,False,,,,,,,,
+LSE IV 2023,https://lsexiv.calicotab.com/lsexiv/,BP,IONA,S-A+,J-AA,False,False,,,,,,,,
+LSE IV 2024,https://lseiv2024.calicotab.com/_/,BP,IONA,S-A,J-A,False,False,,,,,,,,
+LSE IV 2025,https://lseiv2025.calicotab.com/lseiv2025/,BP,IONA,S-A+,J-B,False,False,,,,,,,,
+LSE Open 2022,https://lseopen2022.calicotab.com/_/,BP,IONA,S-AA,J-AA,False,False,,,,,,,,
+LSE Open 2023,https://lseopen2023.calicotab.com/_/,BP,IONA,S-AA+,J-AA,False,False,,,,,,,,
+LSE Open 2024,https://lseopen2024.calicotab.com/lsexopen2024/,BP,IONA,S-AAA,J-A,False,False,,,,,,,,
+LSE Open 2025,https://lseopen2025.calicotab.com/_/,BP,IONA,S-AAA,J-A,False,False,,,,,,,,
+LSE Open 2026,https://lseopen2026.calicotab.com/_/,BP,IONA,S-AAA,J-A,False,False,,,,,,,,
+Liverpool IV 2023,https://liverpool23.calicotab.com/Liverpool23/,BP,IONA,S-A,J-A,False,False,,,,,,,,
+Liverpool IV 2025,https://liverpool25.calicotab.com/liverpool25/,BP,IONA,S-A,J-C,False,False,,,,,,,,
+Ljubljana IV 2022,https://tab.debate.si/lj-iv-22/,BP,Europe,S-A,J-C,False,False,,,,,,,,
+Macquarie Pro-Am 2026,https://mactabs2026.calicotab.com/macproam26/,BP,Oceania,S-A,J-C,False,False,,,,,,,,
+Madrid WUDC 2023,https://wudc2023.calicotab.com/wudc/,BP,WUDC,S-WUDC,J-WUDC,True,False,,,,,,,,
+Malaysia ABP 2023,https://midp.calicotab.com/mabp2023/,BP,Asia,S-A+,J-AA,True,False,,,,,,,,
+Manchester IV 2024,https://manchesteriv2024.calicotab.com/Manchester2024/,BP,IONA,S-A,J-B,False,False,,,,,,,,
+Manchester IV 2025,https://manchesteriv25.calicotab.com/_/,BP,IONA,S-A,J-B,False,False,,,,,,,,
+McGill IV 2024,https://mcgilliv2024.calicotab.com/iv/,BP,North America,S-A+,J-A+,False,False,,,,,,,,
+McGill IV 2025,https://mdu.calicotab.com/mcgilliv25/,BP,North America,S-A,J-B,False,False,,,,,,,,
+McGill IV 2026,https://mcgilliv26.calicotab.com/mcgilliv26/,BP,North America,S-AA,J-A,False,False,,,,,,,,
+McGill NAUDC 2022,https://naudc2021.calicotab.com/_/,BP,North America,S-A+,J-AA+,True,False,,,,,,,,
+Melbourne Open 2026,https://melbtabs2026.calicotab.com/MelbOpen2026/,Australs,Oceania,S-A+,J-E,False,False,,,,,,,,
+Melbourne x UNSW Pre-Australs 2026,https://melbtabs2026.calicotab.com/MelbxUNSWpa2026/,Australs,Oceania,S-A+,J-C,False,False,,,,,,,,
+Mexico NAUDC 2024,https://naudc2024.calicotab.com/naudc2024/,BP,North America,S-AA+,J-A,True,False,,,,,,,,
+Monash Pre-Australs 2024,https://madpa2024.calicotab.com/madpa2024/,Australs,Oceania,S-A+,J-C,False,False,,,,,,,,
+Monash Pre-WUDC 2023,https://mad2024.calicotab.com/madprewudc2023/,BP,Oceania,S-A,J-C,False,False,,,,,,,,
+Monash Pre-WUDC 2025,https://monashprewudc.calicotab.com/monashprewudc2025/,BP,Oceania,S-AA,J-C,False,False,,,,,,,,
+NAUDC 2025,https://naudc2025.calicotab.com/naudc2025/,BP,North America,S-AA,J-A+,True,False,,,,,,,,
+NAUDC 2026,https://naudc2026.calicotab.com/_/,BP,North America,S-AA,J-AA+,True,False,,,,,,,,
+Odesa Open Pre-WUDC 2023,https://ukrainedebates.calicotab.com/odesa2023/,BP,Europe,S-AA,J-B,False,False,,,,,,,,
+Ottawa Open 2025,https://ottawa27wudc.calicotab.com/ottawaopen2025/,BP,North America,S-AA,J-AA,False,False,,,,,,,,
+Ottawa Summer 2026,https://ottawasummer2026.calicotab.com/_/,BP,North America,S-A+,J-B,False,False,,,,,,,,
+Oxford Charity Open (III) 2026,https://oxfordcharity26.calicotab.com/iii/,BP,IONA,S-A+,J-B,False,False,,,,,,,,
+Oxford Charity Open 2025,https://oxfordcharity25.calicotab.com/_/,BP,IONA,S-A,J-B,False,False,,,,,,,,
+Oxford Charity Open 2026,https://oxfordcharity26.calicotab.com/_/,BP,IONA,S-AA,J-B,False,False,,,,,,,,
+Oxford IV 2022,https://oxfordiv2022.calicotab.com/_/,BP,IONA,S-AAA,J-AA+,False,False,,,,,,,,
+Oxford IV 2023,https://oxfordiv2023.calicotab.com/_/,BP,IONA,S-AA+,J-AA+,False,False,,,,,,,,
+Oxford IV 2024,https://oxiv2024.calicotab.com/_/,BP,IONA,S-AA+,J-AA+,False,False,,,,,,,,
+Oxford IV 2025,https://oxfordiv2025.calicotab.com/_/,BP,IONA,S-AA+,J-AA,False,False,,,,,,,,
+Oxford IV 2026,https://oxfordiv26.calicotab.com/_/,BP,IONA,S-AA,J-AA+,False,False,,,,,,,,
+Oxford ROSMD (DOTY) 2025,https://docs.google.com/spreadsheets/d/1-lpe7j1wAaGc2Zwd6B2BTCZIAmmYMSS0iufEWj8ZXDE/edit?gid=631217382#gid=631217382,BP,IONA,S-A,,False,False,,,,,,,,
+Oxford ROSMD (DOTY) 2026,https://docs.google.com/spreadsheets/d/15MTTkiuI-XZgZ0c_iLr9-iytEOShlaH4XepF0Z2CApg/edit?gid=631217382#gid=631217382,BP,IONA,S-A,,False,False,,,,,,,,
+Panama WUDC 2025,https://wudc2025.calicotab.com/open/,BP,WUDC,S-WUDC,J-WUDC,True,False,,,,,,,,
+Penn Pre-WUDC 2024,https://pennwsdc2024.calicotab.com/ppw2024/,BP,North America,S-AA,J-B,False,False,,,,,,,,
+Penn USUDC 2025,https://pennusudc2025.calicotab.com/_/,BP,North America,S-A,J-AA,False,False,,,,,,,,
+Pre-EUDC Challenge Inv. 2024,https://preeudcchallenge2024mini.calicotab.com/_/,BP,Europe,S-A,J-E,False,False,,,,,,,,
+Princeton IV 2023,https://princetoniv2023.calicotab.com/princeton23/,BP,North America,S-AAA+,J-AAA,False,False,,,,,,,,
+Princeton IV 2024,https://princetoniv2024.calicotab.com/princetoniv2024/,BP,North America,S-AA+,J-A+,False,False,,,,,,,,
+Princeton IV 2025,https://princetoniv2025.calicotab.com/princetoniv25/,BP,North America,S-AAA,J-AA,False,False,,,,,,,,
+Princeton IV 2026,https://princetoniv26.calicotab.com/princetoniv2026/,BP,North America,S-AA,J-A+,False,False,,,,,,,,
+Scotland Pre-EUDC 2026,https://scotlandpreeudc2026.calicotab.com/scotlandpreeudc2026/,BP,IONA,S-AA,J-B,False,False,,,,,,,,
+Shumen Online Open 2026,https://shumenonlineopen2026.calicotab.com/_/,BP,Europe,S-A,J-B,False,False,,,,,,,,
+Sofia Online Open (Part 2) 2024,https://sofiaonlinept2.calicotab.com/soopt2/,BP,Europe,S-AA,J-AA,False,False,,,,,,,,
+Sofia Online Open 2023,https://sofiaonline2023.calicotab.com/_/,BP,Europe,S-AA,J-AA,False,False,,,,,,,,
+Sofia Online Open 2024,https://sofiaonline24.calicotab.com/_/,BP,Europe,S-AA,J-AA,False,False,,,,,,,,
+Sofia Pre-EUDC 2023,https://sofiapreeudc.calicotab.com/_/,BP,Europe,S-AA,J-AA+,False,False,,,,,,,,
+Sofia WUDC 2026,https://wudc2026.calicotab.com/open/,BP,WUDC,S-WUDC,J-WUDC,True,False,,,,,,,,
+St Andrews Pre-EUDC (Part 2) 2026,https://standrewspart2.calicotab.com/_/,BP,IONA,S-A+,J-B,False,False,,,,,,,,
+St Andrews Pre-EUDC 2024,https://staspreeudc.calicotab.com/_/,BP,IONA,S-AA+,J-A+,False,False,,,,,,,,
+St Andrews Pre-EUDC 2025,https://standrewspreeudc2025.calicotab.com/_/,BP,IONA,S-AA,J-A,False,False,,,,,,,,
+Structural Reasons Pre-WUDC 2022,https://structuralreasons.calicotab.com/structural/,BP,Europe,S-AAA,J-AA,False,False,,,,,,,,
+Structural Reasons Volume 2 2023,https://structuralreasons2.calicotab.com/_/,BP,Europe,S-AAA,J-AA+,False,False,,,,,,,,
+Sydney Mini 2022,https://sydmini2022.calicotab.com/sydmini2022/,BP,Oceania,S-A,J-C,False,False,,,,,,,,
+Sydney Mini 2023,https://sydneymini2023.calicotab.com/sydneymini2023/,BP,Oceania,S-AA,J-A,False,False,,,,,,,,
+Sydney Mini 2024,https://sydmini2024.calicotab.com/sydmini24/,BP,Oceania,S-AA,J-A,False,False,,,,,,,,
+Sydney Mini 2025,http://www.sydneymini2025.calicotab.com/sydneymini2025/tab/speaker/,BP,Oceania,S-AA,J-C,False,False,,,,,,,,
+Tabtastic Autumn Open 2023,https://autumnopen2023.calicotab.com/_/,BP,IONA,S-A+,J-A,False,False,,,,,,,,
+Tabtastic Spring Open 2023,https://springopen2023.calicotab.com/_/,BP,IONA,S-AA,J-AA,False,False,,,,,,,,
+Tabtastic Summer Open 2023,https://summeropen2023.calicotab.com/_/,BP,Europe,S-AA,J-A+,False,False,,,,,,,,
+Trinity IV 2022,https://trinity2022.calicotab.com/iv/,BP,IONA,S-AA,J-AA,False,False,,,,,,,,
+Trinity IV 2023,https://trinity2023.calicotab.com/iv/,BP,IONA,S-A+,J-AA,False,False,,,,,,,,
+Trinity IV 2024,https://trinity2024.calicotab.com/iv/,BP,IONA,S-A,J-B,False,False,,,,,,,,
+Trinity IV 2025,https://trinityiv2025.calicotab.com/trinityiv2025/,BP,IONA,S-A+,J-B,False,False,,,,,,,,
+Trinity IV 2026,https://trinityiv2026.calicotab.com/trinityiv2026/,BP,IONA,S-A+,J-A,False,False,,,,,,,,
+Trinity Open 2023,https://trinityopen2023.calicotab.com/trinityopen2023/,BP,IONA,S-A+,J-B,False,False,,,,,,,,
+Trinity Open 2024,https://trinityopen2024.calicotab.com/trinityopen2024/,BP,IONA,S-A,J-C,False,False,,,,,,,,
+Trinity Open 2026,https://trinityopen2026.calicotab.com/trinityopen2026/,BP,IONA,S-A,J-C,False,False,,,,,,,,
+U Queensland Pre-Australs 2025,https://uqpreaustrals2025.calicotab.com/uqpa2025/,Australs,Oceania,S-AA,J-E,False,False,,,,,,,,
+UCL IV 2023,https://ucliv2023.calicotab.com/_/,BP,IONA,S-A,J-C,False,False,,,,,,,,
+UCLA IV 2023,https://ucladebateunion.calicotab.com/uclaiv2023/,BP,North America,S-A+,J-A,False,False,,,,,,,,
+UCLA IV 2025,https://uclaiv2025.calicotab.com/uclaiv2025/,BP,North America,S-AA,J-A,False,False,,,,,,,,
+UCLA USUDC 2026,https://usudc2026.calicotab.com/usudc2026/,BP,North America,S-A+,J-A+,False,False,,,,,,,,
+UNSW Pre-Australs 2025,https://unswtabs2025.calicotab.com/preaustrals2025/,Australs,Oceania,S-AA,J-E,False,False,,,,,,,,
+UNSW Pro-Am 2022,https://unsw22.calicotab.com/pro-am2022/,BP,Oceania,S-A+,J-C,False,False,,,,,,,,
+UNSW Sports IV 2025,https://unswtabs2025.calicotab.com/sportsiv/,BP,Oceania,S-A,J-E,False,False,,,,,,,,
+UQ Easters 2024,https://easters2024.calicotab.com/easters2024/,Australs,Oceania,S-A,J-A,False,False,,,,,,,,
+USC IV 2025,https://usciv2025.calicotab.com/_/,BP,North America,S-A+,J-B,False,False,,,,,,,,
+USU IV 2026,https://usutabs2025.calicotab.com/usuiv2025/,BP,Oceania,S-A,J-C,False,False,,,,,,,,
+USU Open 2024,https://usutabs2024.calicotab.com/usuopen2024/,Australs,Oceania,S-AA,J-E,False,False,,,,,,,,
+USU Open 2025,https://usutabs2025.calicotab.com/usuopen2025/,Australs,Oceania,S-A+,J-E,False,False,,,,,,,,
+USU Open 2026,https://usutabs2026.calicotab.com/usuopen2026/,Australs,Oceania,S-AA,J-E,False,False,,,,,,,,
+USU POC Pro-Am 2026,https://usutabs2026.calicotab.com/usupocproam/,BP,Oceania,S-A,J-E,False,False,,,,,,,,
+USU Pre-Australs 2024,https://usutabs2024.calicotab.com/pa2024/,Australs,Oceania,S-AA,J-C,False,False,,,,,,,,
+USU Pre-Australs 2025,https://usutabs2025.calicotab.com/pa2025/,Australs,Oceania,S-AA,J-E,False,False,,,,,,,,
+USU Pre-Australs 2026,https://usutabs2026.calicotab.com/usupreaustrals2026/,Australs,Oceania,S-A,J-B,False,False,,,,,,,,
+UTS IV 2023,http://www.utstabs2023.calicotab.com/utsiv2023/,BP,Oceania,S-A,J-C,False,False,,,,,,,,
+UTS Open 2022,https://utsopen2022.calicotab.com/utsopen2022/,BP,Oceania,S-A,J-C,False,False,,,,,,,,
+UTS Open 2023,http://www.utstabs2023.calicotab.com/utsopen2023/,Australs,Oceania,S-AA,J-E,False,False,,,,,,,,
+UTS Pre-Australs 2023,http://www.utstabs2023.calicotab.com/preaustrals2023/,Australs,Oceania,S-AA,J-E,False,False,,,,,,,,
+Untitled Pre-EUDC 2023,https://untitledpreeudc.calicotab.com/2023/,BP,IONA,S-AA,J-A,False,False,,,,,,,,
+Untitled Pre-Glasgow 2024,https://untitledpreglasgow.calicotab.com/2024/,BP,IONA,S-AA,J-A,False,False,,,,,,,,
+Untitled Spring Open 2025,https://untitledspringopen.calicotab.com/untitledspringopen/,BP,IONA,S-A,J-B,False,False,,,,,,,,
+Vienna IV 2022,https://viv22.calicotab.com/viv2022/,BP,Europe,S-AA,J-A,False,False,,,,,,,,
+Vienna IV 2023,https://viv2023.calicotab.com/_/,BP,Europe,S-AA,J-AA,False,False,,,,,,,,
+Vienna IV 2024,https://viennaiv24.calicotab.com/viv24/,BP,Europe,S-AA,J-A,False,False,,,,,,,,
+Vienna IV 2025,https://viennaiv2025.calicotab.com/ViennaIV2025/,BP,Europe,S-AA,J-AA,False,False,,,,,,,,
+Vienna IV 2026,https://viennaiv2026.calicotab.com/_/,BP,Europe,S-AA+,J-A,False,False,,,,,,,,
+Vienna Pre-EUDC 2024,https://viennapreeudc2024.calicotab.com/_/,BP,Europe,S-AAA,J-AA,False,False,,,,,,,,
+Vienna Pre-WUDC 2022,https://viennaprewudc.calicotab.com/_/,BP,Europe,S-AAA,J-AA,False,False,,,,,,,,
+Vienna Pre-WUDC 2024,https://viennaprewudc2024.calicotab.com/prewudcvoo2024/,BP,Europe,S-AA+,J-AA,False,False,,,,,,,,
+Vienna Pre-WUDC 2025,https://viennaonline2025.calicotab.com/viennaonline025/,BP,Europe,S-AAA,J-AA+,False,False,,,,,,,,
+Vietnam WUDC 2024,https://wudc2024.calicotab.com/wudc/,BP,WUDC,S-WUDC,J-WUDC,True,False,,,,,,,,
+Warwick IV 2022,https://warwickiv2022.calicotab.com/warwickiv2022/,BP,IONA,S-A,J-A,False,False,,,,,,,,
+Warwick Open 2025,https://warwickopen.calicotab.com/warwickopen/,BP,IONA,S-A+,J-A+,False,False,,,,,,,,
+Warwick Pre-EUDC 2025,https://warwick2025.calicotab.com/_/,BP,IONA,S-AA,J-A,False,False,,,,,,,,
+Warwick Pre-EUDC 2026,https://warwick2026.calicotab.com/_/,BP,IONA,S-A+,J-C,False,False,,,,,,,,
+Western IV 2022,https://westerniv.calicotab.com/westerniv2022/,BP,North America,S-AA,J-A+,False,False,,,,,,,,
+Western IV 2023,https://western2023.calicotab.com/western2023/,BP,North America,S-A+,J-A,False,False,,,,,,,,
+Western IV 2024,https://westerniv2024.calicotab.com/western2024/,BP,North America,S-A,J-A,False,False,,,,,,,,
+Western IV 2025,https://westerniv2025.calicotab.com/_/,BP,North America,S-A+,J-A+,False,False,,,,,,,,
+Western IV 2026,https://westerniv26.calicotab.com/westerniv26/,BP,North America,S-A,J-B,False,False,,,,,,,,
+Wollongong Australs 2026,https://australs2026.calicotab.com/australs2026/,Australs,Oceania,S-AA,J-A+,True,True,2026-07-02,tab,8.0,api,1251.0,54.0,True,64.0
+Wollongong Minigong 2025,https://minigong2025.calicotab.com/minigong2025/,BP,Oceania,S-A,J-E,False,False,,,,,,,,
+Yale IV 2022,https://yaleiv2022.calicotab.com/_/,BP,North America,S-AA,J-A+,False,False,,,,,,,,
+Yale IV 2023,https://yaleiv2023.calicotab.com/yaleiv2023/,BP,North America,S-AA,J-A,False,False,,,,,,,,
+Yale IV 2024,https://yaleiv2024.calicotab.com/_/,BP,North America,S-AA+,J-AA,False,True,2024-11-02,tab,5.0,api,1344.0,136.0,True,117.0
+Yale IV 2025,https://yaleiv2025.calicotab.com/_/,BP,North America,S-AA,J-A,False,False,,,,,,,,
+Yale IV 2026,https://yaleiv2026.calicotab.com/_/,BP,North America,S-A,J-A,False,False,,,,,,,,
+Zagreb EUDC 2022,https://eudc2022.calicotab.com/eudc2022/,BP,Europe,S-AAA,J-AAA,True,False,,,,,,,,
+Zagreb Open 2024,https://tab.debate.si/zagreb-open-24/,BP,Europe,S-A+,J-A,False,False,,,,,,,,
+Zagreb Pre-EUDC 2024,https://zagrebpreeudc2024.calicotab.com/zagrebpreeudc24/,BP,Europe,S-AA,J-B,False,False,,,,,,,,
+Zagreb Pre-EUDC 2025,https://zagrebpreeudc2025.calicotab.com/_/,BP,Europe,S-AA,J-A,False,False,,,,,,,,
+Zagreb Pre-EUDC 2026,https://zgpreeudc26.calicotab.com/zagrebpreeudc26/,BP,Europe,S-A+,J-A,False,False,,,,,,,,
+Zagreb Pre-WUDC 2023,https://zagrebprewudc.calicotab.com/_/,BP,Europe,S-AAA,J-AA+,False,False,,,,,,,,
+Zagreb Pre-WUDC 2024,https://zagreb2024.calicotab.com/zagreb2024/,BP,Europe,S-A+,J-A,False,False,,,,,,,,
+Zagreb Pre-WUDC 2025,https://zagrebprewudc2025.calicotab.com/zagreb2025/,BP,Europe,S-AAA,J-AA,False,False,,,,,,,,
